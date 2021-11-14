@@ -1,0 +1,46 @@
+.addRequest {
+  background: transparent;
+  border: 1px solid var(--orange-color) !important;
+  border-radius: 28px;
+  color: #817575;
+  /* height: 55px; */
+  padding: 5px;
+  padding-right: 15px;
+  transition: 0.3s;
+}
+
+.addRequestText {
+  margin-left: var(--medium-space);
+  font-size: 18px;
+}
+
+@media (max-width: 1652px) {
+  .addRequestText {
+    font-size: 15px;
+  }
+}
+
+.addRequestIcon {
+  width: 30px;
+  height: 30px;
+  background: var(--orange-color);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.addRequest:hover {
+  background: var(--orange-color);
+  color: #fff;
+}
+
+.addRequest:hover .addRequestIcon {
+  background: #fff;
+}
+
+.addRequest .addRequestIcon svg {
+  transition: 0.3s;
+}
+
+.addRequest:hover .addRequestIcon svg {
+  fill: var(--orange-color) !important;
+}

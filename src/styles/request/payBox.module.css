@@ -1,0 +1,103 @@
+.payBox {
+  margin-top: -10%;
+  padding: var(--medium-space);
+  background: linear-gradient(45deg, #ecc6ad, #9ca1cf);
+  border-radius: 32px;
+}
+
+@media (max-width: 1652px) {
+  .payBox {
+    padding: var(--small-space);
+  }
+}
+
+.payBoxIcon {
+  margin-top: -30%;
+  --width: 60px;
+  width: var(--width);
+  height: var(--width);
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 0 auto var(--medium-space);
+}
+
+@media (max-width: 1652px) {
+  .payBoxIcon {
+    --width: 35px;
+    width: var(--width);
+    height: var(--width);
+    margin: 0 auto var(--small-space);
+    float: right;
+  }
+
+  .payBoxIcon svg {
+    width: 22px !important;
+  }
+  
+}
+
+.payBoxTitle {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: var(--small-space);
+}
+
+@media (max-width: 1652px) {
+  .payBoxTitle {
+    font-size: 15px;
+    
+  }
+ 
+}
+
+.payBoxText {
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.payBoxFooter {
+  margin-top: 30%;
+  padding: var(--medium-space) 0;
+  border-top: 1px solid #fff;
+  position: relative;
+}
+
+@media (max-width: 1652px) {
+  .payBoxFooter {
+    margin-top: var(--small-space);
+    padding: var(--small-space) 0;
+  }
+ 
+}
+
+.icon {
+  position: absolute;
+  right: -15px;
+}
+
+@media (max-width: 1652px) {
+  .icon {
+    top: 6px;
+    right: -10px;
+  }
+  .icon svg {
+    max-width: 40px;
+  }
+}
+
+.payNow {
+  margin-right: 40px;
+  display: block;
+  position: relative;
+  top: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.check{
+  position: absolute;
+  left: 10px;
+}

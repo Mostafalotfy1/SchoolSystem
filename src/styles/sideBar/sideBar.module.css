@@ -1,0 +1,58 @@
+.sideBar {
+  background: #fff;
+  width: var(--sideBar-width);
+  height: calc(100vh - (var(--header-height) + 40px));
+  box-shadow: -9px 6px 10px rgba(var(--dark-rgb-color) / 0.16);
+  padding-top: var(--large-space);
+  padding-bottom: var(--large-space);
+  transition: 0.3s;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  --width: 75px;
+  height:100%
+}
+
+@media (max-width: 1652px) {
+  .sideBar {
+    width: var(--sideBar-width-sm);
+    border-radius: 20px;
+    /* padding-top: var(--medium-space);
+    padding-bottom: var(--medium-space); */
+  }
+}
+
+.sideBar.toggle {
+  width: var(--width);
+}
+
+@media (max-width: 767px) {
+  .sideBar {
+    width: 75px;
+  }
+
+  .sideBar.toggle {
+    width: 300px;
+  }
+}
+
+.toggleScreen {
+  position: absolute;
+  top: var(--medium-space);
+  right: 40px;
+  max-width: 15px;
+  cursor: pointer;
+}
+
+.sideBar.toggle .toggleScreen {
+  right: 8px;
+  top: 10px;
+}
+
+.settings {
+  background: transparent;
+  border: none;
+  position: absolute;
+  bottom: var(--medium-space);
+  z-index: 9;
+}

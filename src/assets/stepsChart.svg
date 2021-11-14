@@ -1,0 +1,57 @@
+<svg id="Group_11" data-name="Group 11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="221" height="112" viewBox="0 0 221 112">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcf2ea"/>
+      <stop offset="1" stop-color="#6ac9c3"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect width="221" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1">
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="16" height="87" rx="8" transform="translate(0 0)" fill="#eeebeb"/>
+  </g>
+  <g id="Group_2" data-name="Group 2" transform="translate(33)">
+    <rect id="Rectangle_13-2" data-name="Rectangle 13" width="16" height="87" rx="8" transform="translate(0 0)" fill="#eeebeb"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="16" height="30" rx="8" transform="translate(0 31)" fill="#ecb3cb"/>
+  </g>
+  <g id="Group_3" data-name="Group 3" transform="translate(65)">
+    <rect id="Rectangle_13-3" data-name="Rectangle 13" width="16" height="87" rx="8" transform="translate(0 0)" fill="#eeebeb"/>
+    <rect id="Rectangle_14-2" data-name="Rectangle 14" width="16" height="20" rx="8" transform="translate(0 10)" fill="#ecb3cb"/>
+  </g>
+  <g id="Group_4" data-name="Group 4" transform="translate(98)">
+    <rect id="Rectangle_13-4" data-name="Rectangle 13" width="16" height="87" rx="8" transform="translate(0 0)" fill="#eeebeb"/>
+  </g>
+  <g id="Group_5" data-name="Group 5" transform="translate(131)">
+    <rect id="Rectangle_13-5" data-name="Rectangle 13" width="16" height="87" rx="8" transform="translate(0 0)" fill="#eeebeb"/>
+  </g>
+  <rect id="Rectangle_13-6" data-name="Rectangle 13" width="16" height="87" rx="8" transform="translate(163 0)" fill="#eeebeb"/>
+  <rect id="Rectangle_14-3" data-name="Rectangle 14" width="16" height="35" rx="8" transform="translate(163 26)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_16" data-name="Rectangle 16" width="16" height="24" rx="8" transform="translate(0 41)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_15" data-name="Rectangle 15" width="16" height="24" rx="8" transform="translate(131 16)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_17" data-name="Rectangle 17" width="16" height="26" rx="8" transform="translate(98 14)" fill="url(#linear-gradient)"/>
+  <g id="Group_7" data-name="Group 7" transform="translate(193)">
+    <rect id="Rectangle_13-7" data-name="Rectangle 13" width="16" height="87" rx="8" transform="translate(0 0)" fill="#eeebeb"/>
+    <rect id="Rectangle_14-4" data-name="Rectangle 14" width="16" height="35" rx="8" transform="translate(0 20)" fill="#ecb3cb"/>
+  </g>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(0 92)" clip-path="url(#clip-path)">
+    <g transform="translate(-140 -903)">
+      <text id="_1M" data-name="1M" transform="translate(140 917)" fill="#ecb3cb" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">1M</tspan></text>
+    </g>
+    <g transform="translate(-96 -903)">
+      <text id="_2M" data-name="2M" transform="translate(140 917)" fill="#ecb3cb" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">2M</tspan></text>
+    </g>
+    <g transform="translate(-52 -903)">
+      <text id="_3M" data-name="3M" transform="translate(140 917)" fill="#ecb3cb" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">3M</tspan></text>
+    </g>
+    <g transform="translate(-8 -903)">
+      <text id="_4M" data-name="4M" transform="translate(140 917)" fill="#ecb3cb" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">4M</tspan></text>
+    </g>
+    <g transform="translate(36 -903)">
+      <text id="_5M" data-name="5M" transform="translate(140 917)" fill="#ecb3cb" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">5M</tspan></text>
+    </g>
+    <g transform="translate(80 -903)">
+      <text id="_6M" data-name="6M" transform="translate(140 917)" fill="#ecb3cb" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">6M</tspan></text>
+    </g>
+  </g>
+</svg>

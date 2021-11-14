@@ -1,0 +1,154 @@
+.modal {
+  position: fixed;
+  width: calc(100% - (var(--sideBar-width) + 60px + 40px + 100px));
+  height: calc(100vh - (var(--header-height) + 40px));
+  top: 80px;
+  left: 240px;
+  z-index: 9;
+  background: var(--main-color);
+  box-shadow: -8px 8px 10px rgba(var(--dark-rgb-color) / 0.16);
+  border-radius: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1652px) {
+  .modal {
+    width: calc(100% - (var(--sideBar-width-sm) + 60px + 153px));
+  }
+}
+
+.modalImage {
+  background: #fff;
+  height: 100%;
+  position: relative;
+  padding: 0 var(--small-space);
+}
+
+.modalbtn {
+  position: absolute;
+  top: -4px;
+  right: -7px;
+  width: 98px;
+  height: 72px;
+  border: none;
+  font-size: 21px;
+  background: transparent;
+  color: var(--main-color);
+}
+
+.modalbtn span {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalIntroText {
+  font-weight: bold;
+  font-size: 23px;
+  color: var(--main-color);
+  line-height: 1.5;
+  margin-bottom: var(--medium-space);
+}
+
+.modalForm {
+  padding: var(--medium-space);
+}
+
+.modalFormTitle {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: var(--medium-space);
+}
+
+.formContentTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: var(--small-space);
+}
+
+@media (max-width: 1652px) {
+  .modalFormTitle {
+    font-size: 25px;
+  }
+  .formContentTitle {
+    font-size: 18px;
+  }
+}
+
+.formGroup {
+  margin-bottom: var(--small-space);
+}
+
+.label {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.input {
+  height: 38px;
+  padding: 3px var(--small-space);
+  background: #fff;
+  color: var(--text-color);
+  border-radius: 10px;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 1652px) {
+  .input {
+    height: 35px;
+    border-radius: 8px;
+  }
+}
+
+.radioWrapper label {
+  margin-left: var(--large-space);
+  color: #fff;
+  margin-right: var(--small-space);
+}
+
+.btnsWrapper {
+  padding: 0 var(--large-space);
+  margin-top: var(--small-space);
+}
+
+.resetBtn,
+.submitBtn {
+  height: 45px;
+  border-radius: 8px;
+  background: #fff;
+  color: #bcbbbc;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  min-width: 120px;
+  transition: 0.3s;
+}
+
+.resetBtn {
+  background: transparent;
+  color: #fff;
+}
+
+.submitBtn:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.resetBtn:hover {
+  background: #fff;
+  color: #bcbbbc;
+}

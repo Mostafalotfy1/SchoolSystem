@@ -1,0 +1,153 @@
+/* 
+.auth-page {
+ max-width: 550px;
+ margin: 50px auto 80px;
+}
+.auth-page button {
+ display: block;
+ width: 100%;
+}
+
+.ant-form label {
+ font-size: 1.1rem;
+} */
+html {
+  direction: rtl;
+}
+.signIn {
+  height: 100vh;
+ 
+ 
+
+  
+  .cardRow{
+    min-width: 120vh;
+    
+   
+  .floating {
+    margin-top: -50%;
+    background-color: white;
+    height: 420px;
+    max-height: 500px;
+    
+    .right {
+      height: inherit;
+      transform: skew(-4deg,0deg);
+      padding-right: 5%;
+      .text-wrapper {
+        h1 {
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+        }
+        p {
+          color: white;
+          font-weight: lighter;
+          font-size: 20px;
+        }
+        .signup-request {
+          p {
+            color: #00a3e0;
+            font-size: 14px;
+          }
+          a {
+            max-width: 300px;
+            height: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+            border: 3px solid #00a3e0;
+            border-radius: 24px;
+            box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+            -webkit-box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+            -moz-box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+          }
+        }
+      
+      }
+    }
+  }
+    .left {
+      height: inherit;
+      margin-left: -10%;
+      padding-left: 30px;
+      padding-top: 2px;
+      padding-right: 0px;
+      margin-top: -12%;
+
+      .arrow {
+        float: left;
+        cursor: pointer;
+        margin-top:14% ;
+      }
+      .logo {
+        margin-top: -15%;
+        align-self: center;
+      }
+      .textOfLogo{
+        color: #00a3e0;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-right: -50px;
+
+        
+      }
+      .form-title {
+        font-weight: bold;
+        font-size: 18px;
+        color: #00a3e0;
+        text-align: center;
+        margin-top: -10%;
+        margin-bottom: 2%;
+      }
+
+      form {
+        .inner {
+          flex-direction: column;
+          align-items: center;
+         
+
+        }
+        input {
+        margin-top: -2%;
+        margin-bottom: 10%;
+          min-width: 70vh;
+          height: 60px;
+          padding: 22px;
+          box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+          -webkit-box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+          -moz-box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+          background-color: white;
+          border: none;
+          &::placeholder {
+            color: #00a3e0;
+            text-align: right;
+          }
+          margin-bottom: 1%;
+        }
+        button {
+          min-width: 170px;
+          background-color: #00a3e0;
+          border: none;
+          border-radius: 24px;
+          color: white;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-top: -3px;
+
+          box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+          -webkit-box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+          -moz-box-shadow: 8px 7px 6px -7px rgba(0, 163, 224, 0.37);
+        }
+        .icons-list {
+          img {
+            cursor: pointer;
+            width: 40px;
+          }
+        }
+      }
+    }
+  }
+}

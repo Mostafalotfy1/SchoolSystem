@@ -1,0 +1,68 @@
+.studentItem {
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px 20px;
+  white-space: nowrap;
+  margin-bottom: var(--small-space);
+  transition: 0.3s;
+}
+
+.studentItem:hover {
+  background: #fff;
+  box-shadow: -6px 5px 7px rgba(var(--dark-rgb-color) / 0.13);
+}
+
+.img img {
+  max-width: 35px;
+}
+
+.nameText,
+.serText,
+.schoolText,
+.recorded,
+.pay {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #313030;
+  font-weight: 300;
+}
+
+@media (max-width: 1652px) {
+  .nameText,
+  .serText,
+  .schoolText,
+  .recorded,
+  .pay {
+    font-size: 14px;
+  }
+}
+
+.dotted {
+  background: transparent;
+  margin-right: var(--medium-space);
+  border: none;
+  padding: 0;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+@media (max-width: 1652px) {
+  .dotted {
+   
+    margin-right: var(--small-space);
+  }
+}
+
+.dotted span {
+  width: 7px;
+  height: 7px;
+  background: #9ca1cf;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.studentItem:hover .dotted {
+  opacity: 1;
+}

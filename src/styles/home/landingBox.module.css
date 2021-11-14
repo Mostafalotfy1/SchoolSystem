@@ -1,0 +1,62 @@
+.outer {
+  margin-top: 6%;
+}
+
+.landingBox {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+  padding: var(--medium-space) var(--medium-space);
+  margin-bottom: var(--medium-space);
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(var(--dark-rgb-color) / 0.16);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  min-height: 20px;
+  transition: 0.3s;
+  /* height: 260px; */
+}
+
+.landingBox::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(var(--dark-rgb-color) / 0.7),
+    rgba(var(--dark-rgb-color) / 0.5),
+    transparent
+  );
+  opacity: 0;
+  transition: 0.3;
+}
+
+.landingBox:hover {
+  transform: scale(1.1);
+}
+
+.landingBox:hover::before {
+  opacity: 1;
+}
+
+.img img {
+  max-height: 120px;
+  /* max-width: 227px; */
+}
+.title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: -5px;
+  position: relative;
+  z-index: 1;
+  color: #455a64;
+  transition: 0.3s;
+}
+
+.landingBox:hover .title {
+  color: #fff;
+}

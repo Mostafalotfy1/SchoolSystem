@@ -1,0 +1,61 @@
+.navBar {
+  padding-right: var(--medium-space);
+  text-align: right;
+}
+
+.navBar a {
+  display: block;
+  border-radius: 0 15px 15px 0;
+  font-size: 22px;
+  color: var(--text-sub-color);
+  padding: var(--small-space) var(--medium-space);
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navBar a:not(:last-child) {
+  margin-bottom: var(--medium-space);
+}
+
+.navBar a.active,
+.navBar a:hover {
+  background: var(--sub-color);
+  color: #fff;
+  box-shadow: inset 0 0 10px rgba(var(--dark-rgb-color) / 0.16);
+}
+
+.navBar a svg {
+  transition: 0.3s;
+}
+
+.navBar a.active svg,
+.navBar a:hover svg {
+  fill: #fff !important;
+}
+
+.navBar img {
+  margin-left: var(--medium-space);
+  max-width: 20px;
+}
+
+.lastLink {
+  margin-bottom: 20px;
+  color: #33b845 !important;
+}
+
+.lastLink img {
+  max-width: 40px;
+}
+
+@media (max-width: 1652px) {
+  .navBar a {
+    font-size: 15px;
+  }
+  .navBar a {
+    margin-bottom: var(--small-space) !important;
+  }
+
+  .navBar a svg {
+    width: 18px !important;
+  }
+}

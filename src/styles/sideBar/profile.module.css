@@ -1,0 +1,23 @@
+.profile {
+  /* margin-left: var(--medium-space);
+  margin-bottom: var(--medium-space);
+} */
+}
+.profileName {
+  margin-top: 1px;
+  color: var(--main-color);
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.profile.toggle {
+  text-align: center !important;
+  margin-left: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .profile {
+    text-align: center !important;
+    margin-left: 0 !important;
+  }
+}

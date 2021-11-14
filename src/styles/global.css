@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap");
+:root {
+  --large-space: 40px;
+  --medium-space: 20px;
+  --small-space: 10px;
+
+  --dark-rgb-color: 0 0 0;
+  --header-height: 100px;
+  --text-color: #646262;
+  --main-color: #18afc7;
+  --text-sub-color: #bcbbbc;
+  --sub-color: #ae7ec1;
+  --orange-color: #ff6900;
+
+  --sideBar-width: 230px;
+  --sideBar-width-sm: 230px;
+}
+
+body {
+  /* padding: var(--large-space); */
+  margin-top: 100px;
+  background: url(../assets/bg.svg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-color);
+  text-align: right;
+ 
+}
+.request-page .left-chart-sidebar{
+  display: none;
+}
+@media (max-width: 1652px) {
+  body {
+    margin-top: -0.7%;
+    padding: 2px;
+    font-size: 16px;
+    min-height: 100%;
+    max-height:990px;
+   
+  }
+}
+.sideBar_sideBar__3VlvM{
+      /* height: calc(100vh- (var(--header-height) + var(--medium-space))); */
+}
+.wrapper {
+
+  border-radius: 73px;
+  box-shadow: 30 12 23 rgba(var(--dark-rgb-color) / 0.16);
+  background: linear-gradient(-70deg, #b472bb, #7be1f1);
+  position: relative;
+  
+  
+}
+
+.wrapper-footer-img {
+  
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.radius {
+  border-radius: 73px;
+}
+
+@media (max-width: 1652px) {
+  .radius {
+    border-radius: 30px;
+  }
+}
+
+.page {
+  height: calc(90vh - var(--header-height));
+}
+
+.request-page {
+  margin-top: -1%;
+  border-radius: 45px;
+  background: linear-gradient(24deg, #dfe1ef, #f6dde4);
+  box-shadow: 4px 7px 16px rgba(159 158 158 / 0.53);
+  padding: 5%;
+  height: calc(60vh - var(--header-height));
+}
+
+@media (max-width: 1652px) {
+  .request-page {
+    padding: var(--small-space);
+    border-radius: 35px;
+  }
+}
+
+.request-table {
+  margin-top: var(--large-space);
+}
+
+@media (max-width: 1652px) {
+  .request-table {
+    margin-top: -8%;
+  }
+}
+
+.our-table-title {
+  color: var(--main-color);
+  font-size: 26px;
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-bottom: var(--medium-space);
+}
+
+@media (max-width: 1652px) {
+  .our-table-title {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  font-weight: 300;
+}
+
+.navbar a:not(:last-child) {
+  margin-left: var(--medium-space);
+}
+
+.navLink {
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.navLink.active {
+  border-bottom-color: #fff;
+}

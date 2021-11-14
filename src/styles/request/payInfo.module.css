@@ -1,0 +1,24 @@
+.payInfoHeader {
+  margin-bottom: var(--medium-space);
+}
+
+.payInfoTitle {
+  color: var(--main-color);
+  font-size: 26px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 1652px) {
+  .payInfoTitle {
+    font-size: 20px;
+  }
+
+  .payInfoImgWrapper {
+    height: 195px !important;
+  }
+}
+
+.payInfoImg {
+  margin-top: -21%;
+}
